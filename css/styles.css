@@ -1,0 +1,10 @@
+body {
+	background-color: red;
+}
+h1 {
+	margin: 10px;
+	background-color: green;
+}
+img {
+	border: 1px dashed black;
+}
