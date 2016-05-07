@@ -8,7 +8,7 @@ window.onload = function() {
         {
 		var currentDate = new Date();
 
-		var praxFinishTime = new Date('2016-04-09T07:30:00.000Z');
+		var praxFinishTime = new Date('2016-05-09T07:30:00.000Z');
 
 		var diff = praxFinishTime.getTime() - currentDate.getTime();	
  		var diffSeconds = Math.floor((diff) / (1000));	

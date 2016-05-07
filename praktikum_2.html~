@@ -10,7 +10,6 @@
         <h1>Siin on pilt</h1>
 	<h2 id="kell"><time>0000</time></h2>
 	<img src="dog.jpeg" alt="loom" />
-	<br>
 
 
     </body>

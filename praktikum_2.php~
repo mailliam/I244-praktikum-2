@@ -27,7 +27,7 @@ $resultSql = $l->query($selectSql);
 
 if ($resultSql->num_rows > 0) {
     $result = $resultSql->fetch_assoc();
-    echo "Sinu lehte on külastatud: " . $result['loendur'] . " korda.";  
+    echo "Sinu lehte on külastatud: " . $result['loendur'] . "korda.";  
 } else {
     echo "Error: " . $sql . "<br>" . $l->error;
 }
