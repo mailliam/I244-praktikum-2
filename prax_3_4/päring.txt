@@ -1,0 +1,14 @@
+CREATE TABLE ke_mk_kasutaja (
+    id integer PRIMARY KEY auto_increment,
+    kasutaja varchar(100) UNIQUE,
+    parool varchar(100)    
+);
+
+CREATE TABLE ke_mk_blogi (
+    id integer PRIMARY KEY auto_increment,
+    kasutaja_id integer,
+    content VARCHAR(10000), 
+	title VARCHAR(200),  
+    postedat DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
